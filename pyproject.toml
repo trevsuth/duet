@@ -1,0 +1,7 @@
+[project]
+name = "Duet"
+version = "0.1.0"
+description = "A register based esolang for integers"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
