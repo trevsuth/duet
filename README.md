@@ -31,10 +31,10 @@
 
 ## Examples
 
-| denotes a value
-. denotes a pointer to a value
-: denotes an input
-< comment >
+`|` denotes a value
+`.` denotes a pointer to a value
+`:` denotes an input
+`< comment >` denotes a comment
 
 7 | 9 assert that 9 is value in register 7
 7 . 6 assert that the value in register 6 equals the value in register 7
