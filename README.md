@@ -40,6 +40,7 @@
 7 . 6 assert that the value in register 6 equals the value in register 7
 
 Examples:
+```
 write the sum of 3 +4 to register 1
 3 | =
 4 | +
@@ -64,6 +65,4 @@ Add the value in register 6 to the value in register 7 and store the result in r
 Write the value in register 6 to IO
 6 . =
 0 | >
-
-
-
+```
