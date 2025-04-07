@@ -9,6 +9,11 @@ def run(program_lines, trace=False):
             return int(token)
         raise ValueError(f"Invalid token: {token}")
 
+    def check_reg(reg):
+        if not 0 <= int(reg) < len(registers):
+            raise IndexError(f"Register {reg} does not exist")
+        return reg
+
     result = 0
 
     for line in program_lines:
@@ -25,10 +30,10 @@ def run(program_lines, trace=False):
         if b == "|":
             val = get_val(a)
         elif b == ".":
-            reg = get_val(a)
+            reg = get_val(check_reg(a))
             val = registers[reg]
         elif b == ":":
-            reg = get_val(a)
+            reg = get_val(check_reg(a))
             val = int(input(f"Enter value for register {reg}: "))
         else:
             raise ValueError(f"Unknown middle token: {b}")
@@ -49,7 +54,7 @@ def run(program_lines, trace=False):
             result %= val
         elif c == ">":
             if b == ":":
-                registers[reg] = val
+                registers[check_reg(reg)] = val
             elif b in ("|", "."):
                 registers[get_val(a)] = result
             if get_val(a) == 0:
