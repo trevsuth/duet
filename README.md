@@ -32,17 +32,17 @@
 ## Sintax
 
 ### Median Operators
-`|` denotes a value
-`.` denotes a pointer to a value
-`:` denotes an input
-`< comment >` denotes a comment
+* `|` denotes a value
+* `.` denotes a pointer to a value
+* `:` denotes an input
+* `< comment >` denotes a comment
 
 ### Right Operators
-`+` Addition
-`-` Subtraction
-`*` Multiplication
-`/` Integer Division
-`%` Modulo Division
+* `+` Addition
+* `-` Subtraction
+* `*` Multiplication
+* `/` Integer Division
+* `%` Modulo Division
 
 ### Assertations
 7 | 9 assert that 9 is value in register 7
