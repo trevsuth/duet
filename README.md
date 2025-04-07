@@ -25,21 +25,29 @@
 
 ### Derived Rules
 1. ":" can only be used with ">"
-1. If a ":" or "." is in the median, the Left must be between 1 and 8
+1. If a ":" or "." is in the Median, the Left must be between 1 and 8
 1. Once an = appears, all operations are performed in the working memory until a > or = operator appears
 
 
-## Examples
+## Sintax
 
+### Median Operators
 `|` denotes a value
 `.` denotes a pointer to a value
 `:` denotes an input
 `< comment >` denotes a comment
 
+### Right Operators
++ Addition
+- Subtraction
+* Multiplication
+/ Integer Division
+% Modulo Division
+
 7 | 9 assert that 9 is value in register 7
 7 . 6 assert that the value in register 6 equals the value in register 7
 
-Examples:
+## Examples
 ```
 write the sum of 3 +4 to register 1
 3 | =
