@@ -38,12 +38,13 @@
 `< comment >` denotes a comment
 
 ### Right Operators
-+ Addition
-- Subtraction
-* Multiplication
-/ Integer Division
-% Modulo Division
+`+` Addition
+`-` Subtraction
+`*` Multiplication
+`/` Integer Division
+`%` Modulo Division
 
+### Assertations
 7 | 9 assert that 9 is value in register 7
 7 . 6 assert that the value in register 6 equals the value in register 7
 
