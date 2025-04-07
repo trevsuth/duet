@@ -29,7 +29,10 @@
 1. Once an = appears, all operations are performed in the working memory until a > or = operator appears
 
 
-## Sintax
+## Syntax
+
+### Left Operators
+The Left will always contain only integers
 
 ### Median Operators
 * `|` denotes a value
@@ -43,6 +46,8 @@
 * `*` Multiplication
 * `/` Integer Division
 * `%` Modulo Division
+* `>` Pushs value to a register
+* Integers in the right indicate an assertation
 
 ### Assertations
 7 | 9 assert that 9 is value in register 7
